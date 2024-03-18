@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.container {
+    background-color: #000;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 35px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    max-width: 100%;
+}
+.title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo {
+    width: 60px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 300;
+}
+.chip {
+    width: 70px;
+}
+ 
+.card-number {
+    margin-top: 45px;
+}
+.card-number h2 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.card-number p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.footer h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer p {
+    font-size: 14px;
+    font-weight: 400;
+}
